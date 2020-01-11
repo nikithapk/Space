@@ -1,0 +1,232 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    background-color: #08222e;
+}
+
+.frame {
+    position: absolute;
+	left:10px;
+	top:10px;
+	right:10px;
+	bottom:10px;
+    
+    background-color: #08222e;
+    background-image: radial-gradient(50% 50%, circle, #028dc4 0%, #08222e 100%);
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 2px 3.464px 55.3px 14.7px rgba(0, 0, 0, 0.26);
+}
+
+.loader {
+    position: absolute;
+    width: 250px;
+    left: calc(50% - 150px);
+    top: calc(50% - 150px);
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s;
+}
+
+.loader-ring {
+    background: url("./img/loader-stars.jpg") no-repeat center center;
+    background-size: 375px 375px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 20px solid #d81f44;
+}
+
+.rocket-wrapper {
+    position: absolute;
+    left: 94px;
+    top: -30px;
+    height: 200px;
+}
+
+.rocket {
+    width: 97px;
+    height: auto;
+}
+
+.trail-wrapper {
+    position: absolute;
+    top: 203px;
+    left: 35px;
+    width: 28px;
+    height: 144px;
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transform-origin: top center;
+    transform-origin: top center;
+    z-index: -1;
+}
+
+.trail {
+    width: 28px;
+    height: auto;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: jet 0.02s ease alternate infinite;
+    animation: jet 0.02s ease alternate infinite;
+    -webkit-transform-origin: top center;
+    transform-origin: top center;
+}
+
+.clouds-wrapper {
+    position: absolute;
+    left: calc(50% - 120px);
+    top: calc(50% - 152px);
+    width: 300px;
+    height: 305px;
+}
+
+.clouds {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+
+.cloud {
+    -webkit-animation: kaboom 0.4s ease alternate infinite;
+    animation: kaboom 0.4s ease alternate infinite;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    opacity: 0.9;
+}
+
+.cloud:nth-child(odd) {
+    -webkit-animation: kaboom 0.3s ease alternate infinite;
+    animation: kaboom 0.3s ease alternate infinite;
+}
+
+.cloud:nth-child(1) {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.cloud:nth-child(2) {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.cloud:nth-child(3) {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.cloud:nth-child(4) {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.cloud:nth-child(5) {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.cloud:nth-child(6) {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.cloud:nth-child(7) {
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes kaboom {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    100% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@keyframes kaboom {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    100% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@-webkit-keyframes jet {
+    0% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@keyframes jet {
+    0% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
