@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+
+body {
+  background-image: url("https://3.bp.blogspot.com/-3-Z0-gJKBfA/XAEfTBxxfmI/AAAAAAAAB0Q/GLq249U1ToE09m-U2b4RtenoWWFQhBtqwCHMYCw/s1600/space-stars-planets-space-galaxy-colors-universe-nature-pictures.jpg");
+ /* background-repeat: no-repeat; */
+  background-size: auto;
+}
+
+
+.logo
+{
+	/* margin-right: -100vw; */
+	left:100px;;
+	width: 800px;
+	padding-left: 70px;
+}
+
+header > h1 {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  color: #fff;
+  font-size: 5rem;
+  text-shadow: 3px 3px 5px #0ac7ca;
+  padding-left: 180px;
+}
+
+#astronaut > img {
+  padding-top: 150px;
+  display: block;
+  left: 60%;
+  animation: anim 20s linear infinite;
+  position: absolute;
+}
+
+#astronaut2 > img {
+  padding-top: 150px;
+  display: block;
+  left: 15%;
+  position: absolute;
+  animation: anim2 20s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateY(0px);
+  }
+  10%{
+    transform: translateY(30px) rotate(10deg);
+  }
+  20%{
+    transform: translateY(60px) rotate(20deg);
+  }
+   30%{
+    transform: translateY(90px) rotate(30deg);
+  }
+   40%{
+    transform: translateY(120px) rotate(20deg);
+  }
+  50% {
+    transform: translateY(150px) rotate(30deg);
+  }
+  60%{
+    transform: translateY(120px) rotate(40deg);
+  }
+  70%{
+    transform: translateY(90px) rotate(10deg);
+  }
+  80%{
+    transform: translateY(60px) rotate(20deg);
+  }
+  90%{
+    transform: translateY(30px) rotate(10deg);
+  }
+   100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes anim2 {
+  0% {
+    transform: translateY(0px);
+  }
+  10%{
+    transform: translateY(-30px) rotate(-10deg);
+  }
+  20%{
+    transform: translateY(-60px) rotate(-20deg);
+  }
+   30%{
+    transform: translateY(-90px) rotate(-10deg);
+  }
+   40%{
+    transform: translateY(-120px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-150px) rotate(-10deg);
+  }
+  60%{
+    transform: translateY(-120px) rotate(0deg);
+  }
+  70%{
+    transform: translateY(-90px) rotate(20deg);
+  }
+  80%{
+    transform: translateY(-60px) rotate(10deg);
+  }
+  90%{
+    transform: translateY(-30px) rotate(0deg);
+  }
+   100% {
+    transform: translateY(0px);
+  }
+}
