@@ -1,16 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico");
 
 body {
-  /* background-image: url("../img/bg_stars.gif"); */
- /* /* background-repeat: no-repeat; */ */
-  /* background-size: auto; */
-  background-image: url("../img/bg_stars.gif"); 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
+  background-image: url("../img/bg_stars.gif");
+ /* background-repeat: no-repeat; */
+  background-size: auto;
+  
 }
 .landing
 {
