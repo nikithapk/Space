@@ -5,7 +5,11 @@ body {
  /* background-repeat: no-repeat; */
   background-size: auto;
 }
-
+.landing
+{
+width:100vw;
+height:100vh;
+}
 .row-full{
 	width:100vw;
   height:50px; 
