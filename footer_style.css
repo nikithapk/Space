@@ -28,6 +28,7 @@ body {margin:0;}
   width: 100%;
   background-color: #fff;
   overflow: auto;
+  height:100px;
 }
 
 .icon-bar a {
