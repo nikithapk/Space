@@ -1,4 +1,4 @@
-body {margin:0;}
+
 
 .navbar {
   overflow: hidden;
@@ -21,7 +21,7 @@ body {margin:0;}
 
 .navbar a:hover {
   background: #ddd;
-  color: black;
+  color: white;
 }
 
 
