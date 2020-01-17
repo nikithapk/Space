@@ -19,7 +19,7 @@
 }
 
 .navbar a:hover {
-  background: #ddd;
+  background: #f2eded;
   color: white;
 }
 
@@ -45,7 +45,8 @@
 }
 
 .active {
-  background-color: #ed8632;
+  background-color: #f2eded;
+  color:white;
 }
 
 .footer_text
