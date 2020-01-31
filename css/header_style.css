@@ -1,0 +1,93 @@
+.user
+{
+	float:right;
+	
+  justify-content: center;
+  padding-right:10px;
+  text-align: center;
+  
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: #fff;
+  font-size: 56px;
+}
+
+.mission
+{
+		float:left;
+  justify-content: center;
+  padding-right:10px;
+  text-align: center;
+  
+  width: 60%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: #fff;
+  font-size: 56px;
+}
+
+.menubar {
+  overflow: hidden;
+  background-color:rgba(23,46,84,0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:10;
+
+}
+
+.menubar a {
+  float: left;
+  display: block;
+  color: #f2eded;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ 
+}
+
+.menubar a:hover {
+  background: #f2eded;
+  color: white;
+}
+
+
+.icon-bar1 {
+  width: 100%;
+  background-color: rgba(23,46,84,0.5);
+  overflow: auto;
+}
+
+.icon-bar1 a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: #fff;
+  font-size: 56px;
+}
+
+.icon-bar1 a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #f2eded;
+  color:white;
+}
+
+.footer_text
+{
+	
+	font-size: 25px;
+	letter-spacing: 0.8px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 5px;
+	
+}
