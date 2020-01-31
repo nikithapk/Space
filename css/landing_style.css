@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Pacifico");
+/* @import url("https://fonts.googleapis.com/css?family=Pacifico"); */
 
 body {
   background-image: url("../img/bg_stars.gif");
@@ -13,7 +13,7 @@ width:100vw;
 height:100vh;
 }
 .row-full{
-	width:100vw;
+width:100vw;
   height:50px; 
   position:absolute;
   top:0;
@@ -75,7 +75,7 @@ width:auto;
 }
 
 #astronaut2 > img {
-  padding-top: 15%;
+  padding-top: 20%;
   display: block;
   left: 0%;
   position: absolute;
@@ -130,19 +130,19 @@ width:auto;
     transform: translateY(-60px) rotate(-20deg);
   }
    30%{
-    transform: translateY(-90px) rotate(-10deg);
+    transform: translateY(-70px) rotate(-10deg);
   }
    40%{
-    transform: translateY(-120px) rotate(0deg);
+    transform: translateY(-80px) rotate(0deg);
   }
   50% {
-    transform: translateY(-150px) rotate(-10deg);
+    transform: translateY(-90px) rotate(-10deg);
   }
   60%{
-    transform: translateY(-120px) rotate(0deg);
+    transform: translateY(-80px) rotate(0deg);
   }
   70%{
-    transform: translateY(-90px) rotate(20deg);
+    transform: translateY(-70px) rotate(20deg);
   }
   80%{
     transform: translateY(-60px) rotate(10deg);
